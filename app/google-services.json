@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "239131195234",
+    "firebase_url": "https://nakshatra-6745a.firebaseio.com",
+    "project_id": "nakshatra-6745a",
+    "storage_bucket": "nakshatra-6745a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239131195234:android:627d3b9f8a952677",
+        "android_client_info": {
+          "package_name": "com.perchtech.humraz.nakshatra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239131195234-mieeecur7q7ka993181t2489sva64jcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEJscInx7FESsnnHl98arYNKP8ttMW3_8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

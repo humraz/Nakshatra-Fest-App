@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Nakshatra</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navigation">Forums</string>
+    <string name="title_activity_menuscreen">Menu</string>
+    <string name="bill">Welcome</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_agentcodelypage">Agent Codely</string>
+    <string name="title_activity_forums">Forum</string>
+    <string name="title_activity_contactspage">Contact Us</string>
+    <string name="maps">Navigate</string>
+    <string name="events">Events Register</string>
+    <string name="forum">Forum</string>
+    <string name="contacts">Contacts</string>
+</resources>

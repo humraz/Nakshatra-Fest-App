@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.perchtech.humraz.nakshatra" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".navigation"
+            android:label="@string/title_activity_navigation" >
+        </activity>
+        <activity
+            android:name=".Attend"
+            android:label="@string/title_activity_navigation" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAm7IvC5DpVPeKLTeX0DUT8tYOqHRaccrA" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_navigation" >
+        </activity>
+        <activity
+            android:name=".menuscreen"
+            android:label="@string/title_activity_menuscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".events"
+            android:label="@string/title_activity_events" >
+        </activity>
+        <activity
+            android:name=".agentcodelypage"
+            android:label="@string/title_activity_agentcodelypage" >
+        </activity>
+        <activity
+            android:name=".forums"
+            android:label="@string/title_activity_forums" >
+        </activity>
+        <activity
+            android:name=".contactspage"
+            android:label="@string/title_activity_contactspage" >
+        </activity>
+    </application>
+
+</manifest>
